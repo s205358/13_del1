@@ -1,7 +1,11 @@
 package Test;
 
 public class Main {
-    public static void main(String[] args) {
+    private static DiceGameTest test;
 
+    public static void main(String[] args) {
+        test = new DiceGameTest();
+        test.run();
+        test.print();
     }
 }
